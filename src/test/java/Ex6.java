@@ -15,5 +15,6 @@ public class Ex6 {
                 response.prettyPrint();
         String location = response.getHeader("Location");
         System.out.println(location);
+
     }
 }
